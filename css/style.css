@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+span {
+    font-weight: 600;
+}
+.row {
+    background-color: #006cfa;
+    min-width: 450px;
+    color: #fff;
+}
+
+[class*="col-"] {
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.green {
+    background-color: #00e165;
+}
