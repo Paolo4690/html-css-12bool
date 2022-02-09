@@ -1,10 +1,4 @@
 
-.conteiner {
-    min-width: 680px;
-    max-width: 680px;
-    margin: 0 auto;
-} 
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -197,4 +191,16 @@
 
 .col-offset-19 {
     margin-left: calc((100% / 42) * 19);
+}
+
+.col-offset-20 {
+    margin-left: calc((100% / 42) * 20);
+}
+
+.col-offset-21 {
+    margin-left: calc((100% / 42) * 21);
+}
+
+.col-offset-22 {
+    margin-left: calc((100% / 42) * 22);
 }

@@ -1,6 +1,56 @@
+body {
+    height: 100vh;
+}
 [class*="col-"] {
     min-height: 16px;
  }
+
+ .conteiner {
+    min-width: 680px;
+    max-width: 680px;
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%);
+} 
+.conteiner:hover{
+    animation: pika .10s linear 6;
+}
+@keyframes pika {
+    25% {
+        left: 51%;
+    }
+    75% {
+        left: 49%
+    }
+    100% {
+        left: 50%
+    }
+}
+
+
+.conteiner-heart {
+    min-width: 680px;
+    max-width: 680px;
+    position: absolute;
+    left: -5%;
+    top: 0;
+    transform: scale(.6);
+    animation: cuore 1s linear infinite;
+}
+
+@keyframes cuore {
+    0% {
+        transform: scale(.5);
+    }
+    50% {
+        transform: scale(.7);
+    }
+    100% {
+        transform: scale(.5);
+    }
+}
+
 
 .black {
     background-color: black;
@@ -38,6 +88,9 @@
     background-color: #fcf6a7;
 }
 
+.red {
+    background-color: #da0000;
+}
 .red-1 {
     background-color: #ca5b45;
 }
