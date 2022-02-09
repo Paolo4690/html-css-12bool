@@ -125,6 +125,38 @@
     margin-left: calc((100% / 12) * 12);
 }
 
+/* 
+[class*="col-xs-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-xs-offset-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-sm-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-sm-offset-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-md-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-md-offset-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-lg-"] {
+    flex: 0 0 auto;
+}
+
+[class*="col-lg-offset-"] {
+    flex: 0 0 auto;
+} */
 
 @media screen and (min-width: 576px) {
     /* COLONNE SM */
