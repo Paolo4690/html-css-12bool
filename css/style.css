@@ -13,30 +13,25 @@ span {
 }
 
 .row {
-    background-color: #006cfa;
     font-size: 1rem;
     color: #fff;
     text-align: center;
 }
 
+[class*="col-"] {
+    min-height: 50px;
+    background: #006cfa;
+    padding: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+ }
+
 .riga-vuota {
     margin-bottom: 1rem;
 }
 
-.box {
-    min-height: 50px;
-    background: #006cfa;
-    border: 1px solid #fff;
-    text-align: center;
-    color: #fff;
-    padding: 15px;
-}
-
 .box-nested {
-    min-height: 50px;
     background: #00e165;
     border: 1px solid #006cfa;
-    text-align: center;
-    color: #fff;
-    padding: 15px;
 }
