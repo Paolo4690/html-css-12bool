@@ -75,14 +75,17 @@
     flex-basis: calc((100% / 42) * 12);
     max-width: calc((100% / 42) * 12);
 }
+
 .col-13 {
     flex-basis: calc((100% / 42) * 13);
     max-width: calc((100% / 42) * 13);
 }
+
 .col-14 {
     flex-basis: calc((100% / 42) * 14);
     max-width: calc((100% / 42) * 14);
 }
+
 .col-15 {
     flex-basis: calc((100% / 42) * 15);
     max-width: calc((100% / 42) * 15);
@@ -92,9 +95,30 @@
     flex-basis: calc((100% / 42) * 16);
     max-width: calc((100% / 42) * 16);
 }
+
 .col-17 {
     flex-basis: calc((100% / 42) * 17);
     max-width: calc((100% / 42) * 17);
+}
+
+.col-18 {
+    flex-basis: calc((100% / 42) * 18);
+    max-width: calc((100% / 42) * 18);
+}
+
+.col-19 {
+    flex-basis: calc((100% / 42) * 19);
+    max-width: calc((100% / 42) * 19);
+}
+
+.col-20 {
+    flex-basis: calc((100% / 42) * 20);
+    max-width: calc((100% / 42) * 20);
+}
+
+.col-21 {
+    flex-basis: calc((100% / 42) * 21);
+    max-width: calc((100% / 42) * 21);
 }
 
 
@@ -150,21 +174,27 @@
 .col-offset-13 {
     margin-left: calc((100% / 42) * 13);
 }
+
 .col-offset-14 {
     margin-left: calc((100% / 42) * 14);
 }
+
 .col-offset-15 {
     margin-left: calc((100% / 42) * 15);
 }
+
 .col-offset-16 {
     margin-left: calc((100% / 42) * 16);
 }
+
 .col-offset-17 {
     margin-left: calc((100% / 42) * 17);
 }
+
 .col-offset-18 {
     margin-left: calc((100% / 42) * 18);
 }
+
 .col-offset-19 {
     margin-left: calc((100% / 42) * 19);
 }
