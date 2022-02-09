@@ -2,29 +2,35 @@ body {
     height: 100vh;
 }
 [class*="col-"] {
-    min-height: 16px;
+    min-height: 14px;
  }
 
- .conteiner {
-    min-width: 680px;
-    max-width: 680px;
-    position: absolute;
-    left: 50%;
-    top: 3%;
-    transform: translate(-50%);
+ .centrato {
+    margin: 0 auto;
+    width: 1050px;
+    position: relative;
+ }
+
+ .conteiner-pika {
+    min-width: 588px;
+    max-width: 588px;
+    position: relative;
+    right: -40%;
+    top: 0;
 } 
-.conteiner:hover{
+
+.conteiner-pika:hover{
     animation: pika .10s linear 6;
 }
 @keyframes pika {
     25% {
-        left: 51%;
+        right: -41%;
     }
     75% {
-        left: 49%
+        right: -39%
     }
     100% {
-        left: 50%
+        right: -41%
     }
 }
 
