@@ -1,0 +1,47 @@
+[class*="col-"] {
+    min-height: 16px;
+ }
+
+.black {
+    background-color: black;
+}
+
+.grey-1 {
+    background-color: #2d2d2d;
+}
+
+.grey-2 {
+    background-color: #44424b;
+}
+
+.brown-1 {
+    background-color: #573213;
+}
+
+.brown-2 {
+    background-color: #8a5314;
+}
+
+.brown-3 {
+    background-color: #cb9322;
+}
+
+.yellow-1 {
+    background-color: #e7bc38;
+}
+
+.yellow-2 {
+    background-color: #f2e55f;
+}
+
+.yellow-3 {
+    background-color: #fcf6a7;
+}
+
+.red-1 {
+    background-color: #ca5b45;
+}
+
+.red-2 {
+    background-color: #a9251f;
+}
